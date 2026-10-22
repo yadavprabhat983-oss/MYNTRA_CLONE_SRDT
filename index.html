@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">MYNTRA</div>
+
+        <nav>
+            <a href="#men">MEN</a>
+            <a href="#women">WOMEN</a>
+            <a href="#kids">KIDS</a>
+            <a href="#beauty">BEAUTY</a>
+            <a href="#home">HOME</a>
+        </nav>
+
+        <input type="text" id="search"
+               placeholder="Search for products...">
+
+        <div class="bag">
+            🛍️ Bag <span id="bag-count">0</span>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h1>BIG FASHION FESTIVAL</h1>
+        <p>Discover Your Style</p>
+        <a href="#products" class="shop-btn">SHOP NOW</a>
+    </section>
+
+    <h2 class="heading" id="products">TRENDING PRODUCTS</h2>
+
+    <section class="products">
+
+        <div class="product" id="men">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80"
+                 alt="Casual T-shirt">
+            <h3>Casual T-Shirt</h3>
+            <p>Men's Fashion</p>
+            <h4>₹499</h4>
+            <button onclick="addToBag()">Add to Bag</button>
+        </div>
+
+        <div class="product" id="women">
+            <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=500&q=80"
+                 alt="Women's outfit">
+            <h3>Fashion Dress</h3>
+            <p>Women's Fashion</p>
+            <h4>₹999</h4>
+            <button onclick="addToBag()">Add to Bag</button>
+        </div>
+
+        <div class="product" id="kids">
+            <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=500&q=80"
+                 alt="Kids clothing">
+            <h3>Kids Outfit</h3>
+            <p>Kids' Fashion</p>
+            <h4>₹699</h4>
+            <button onclick="addToBag()">Add to Bag</button>
+        </div>
+
+        <div class="product" id="beauty">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=500&q=80"
+                 alt="Beauty products">
+            <h3>Beauty Essentials</h3>
+            <p>Beauty</p>
+            <h4>₹399</h4>
+            <button onclick="addToBag()">Add to Bag</button>
+        </div>
+
+        <div class="product" id="home">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=500&q=80"
+                 alt="Home decor">
+            <h3>Home Decor</h3>
+            <p>Home & Living</p>
+            <h4>₹799</h4>
+            <button onclick="addToBag()">Add to Bag</button>
+            
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+                 alt="Sports shoes">
+            <h3>Sports Shoes</h3>
+            <p>Footwear</p>
+            <h4>₹1,499</h4>
+            <button onclick="addToBag()">Add to Bag</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80"
+                 alt="Wrist watch">
+            <h3>Classic Watch</h3>
+            <p>Accessories</p>
+            <h4>₹899</h4>
+            <button onclick="addToBag()">Add to Bag</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=500&q=80"
+                 alt="Fashion handbag">
+            <h3>Stylish Handbag</h3>
+            <p>Accessories</p>
+            <h4>₹1,199</h4>
+            <button onclick="addToBag()">Add to Bag</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Myntra Clone | Created for Learning</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
